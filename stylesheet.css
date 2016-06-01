@@ -1,0 +1,147 @@
+body {
+    font-family: 'Georgia'; /*Pick a font*/
+    margin: 0px;
+}
+
+/*These are Navbar properties - they give it a shadow, allow it to stay fixed at the top of the window, and style the links*/
+.navbar {
+    height: 60px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.85); /*Pick an RGB color!*/
+    width: 80%;
+    left: 10%;
+    top: 0px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.5);
+    box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.5);
+}
+
+    .navbar a {
+        line-height: 60px;
+        color: gray;
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: none;
+    }
+
+        .navbar a:hover {
+            color: green;
+        }
+		
+			.navbar a:active {
+				top:2px;
+			}
+
+/*Header properties*/
+
+.header {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+}
+
+#header_image {
+    width: 300px;
+    height: 200px;
+    border-radius: 80px;
+    float: left;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 75px;
+    line-height: 100px;
+    padding-left: 50px;
+    margin: 0px;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+}
+
+/*Standard content section properties*/
+.content {
+    clear: both;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    left: 0px;
+    right: 0px;
+    font-size: medium;
+	background-color: /*pick a color!*/;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: x-large;
+}
+
+.imgcenter {
+	padding-left: 50%;
+	padding-right:50%
+}
+
+/*Additional parallax section properties*/
+.parallax {
+    -webkit-box-shadow: inset 0px 10px 10px -4px rgba(50, 50, 50, 0.5), inset 0px -10px 10px -4px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: inset 0px 10px 10px -4px rgba(50, 50, 50, 0.5), inset 0px -10px 10px -4px rgba(50, 50, 50, 0.5);
+    box-shadow: inset 0px 10px 10px -4px rgba(50, 50, 50, 0.5), inset 0px -10px 10px -4px rgba(50, 50, 50, 0.5);
+    background-image: url(''); /*CHANGE THIS URL TO CHANGE THE BACKGROUND IMAGE OF PARALLAX SECTIONS*/
+	background-color: #E5E4E2;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Forms transparent boxes on which content can float in a parallax section*/
+.floating {
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 7px 7px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 7px 7px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow: 7px 7px 10px 0px rgba(50, 50, 50, 0.5);
+    padding: 5px;
+}
+
+ul.floating {
+    padding-left: 45px;
+}
+
+/*Footer properties*/
+.footer {
+    clear: both;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    left: 0px;
+    right: 0px;
+    font-size: medium;
+    background-color: black;
+    color: white;
+    -webkit-box-shadow: inset 0px 10px 10px -4px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: inset 0px 10px 10px -4px rgba(50, 50, 50, 0.5);
+    box-shadow: inset 0px 10px 10px -4px rgba(50, 50, 50, 0.5);
+}
+
+/*These align content to the left and right of a screen for 2 columns*/
+.left-content {
+    float: left;
+    display: inline;
+    width: 50%;
+}
+
+.right-content {
+    float: right;
+    display: inline;
+    width: 50%;
+    font-size: small;
+    text-align: right;
+}
+
+
+.important {
+    font-size: large;
+}

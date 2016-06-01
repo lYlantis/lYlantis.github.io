@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <!-- This is the title of the page.  You'll see it labelling the tab in your browser. -->
+    <title>Revolving Credit</title>
+    <!-- This is a link to the CSS stylesheet. -->
+    <link href="../stylesheet.css" rel="stylesheet" />
+    <!-- This is a link to Google Fonts, so we can use Open Sans - referenced in our stylesheet. -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300' rel='stylesheet' type='text/css'>
+</head>
+<body onload="document.getElementById('lastModifiedLabel').innerText = document.lastModified;">
+
+	<div class="navbar">
+        <a href="../index2.html">Home</a>
+        <a href="#top">Top</a>
+		<a href="#footer">Resources</a>
+    </div>
+	
+	
+
+
+	<section id="header">
+        <div class="header">
+            <h1>Revolving Credit</h1>
+        </div>
+    </section>
+	
+	<section id="top">
+		<div class="content">
+	
+		</div>
+	</section>
+</body>
+</html>

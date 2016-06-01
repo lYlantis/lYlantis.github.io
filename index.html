@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <!-- This is the title of the page.  You'll see it labelling the tab in your browser. -->
+    <title>Quantify Everything</title>
+    <!-- This is a link to the CSS stylesheet. -->
+    <link href="stylesheet.css" rel="stylesheet" />
+    <!-- This is a link to Google Fonts, so we can use Open Sans - referenced in our stylesheet. -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300' rel='stylesheet' type='text/css'>
+</head>
+<body onload="document.getElementById('lastModifiedLabel').innerText = document.lastModified;">
+    <!-- Navigation Bar-->
+    <div class="navbar">
+        <a href="#top">Home</a>
+        <a href="#about">About</a>
+        <a href="#requirements">Articles</a>
+        <a href="#resources">Resource and Links</a>
+        <a href="#footer">Bottom</a>
+    </div>
+
+	<section id="top">
+	</section>
+    <!-- Header Section - has the name and photo -->
+    <section id="header">
+        <div class="header">
+            <img src="whole5-01.jpg" id="header_image">
+            <h1>Quantify Everything</h1>
+        </div>
+    </section>
+
+
+    <!-- Content Section -->
+    <!-- The section tags are used for navigation, but all the content is contained within a div of class 'content'. -->
+    <section id="about">
+        <div class="content">
+            <h2>
+                About
+            </h2>
+            <p>
+			A website about reasonable returns for little amount of effort.
+            </p>
+        </div>
+    </section>
+
+    <!-- Content Section, with Parallax Scrolling -->
+    <section id="requirements">
+        <div class="content parallax">
+            <h2 class="floating">
+                Articles
+            </h2>
+            <ul class="floating">
+                <li><a href="car/car.html">Car</a></li>
+                <li><a href="revolving credit/revolvingcredit.html">Revolving Credit</a></b></li>
+                <li><a href="Community College/community college.html">Community College</a></b></li>
+				<li><a href="Why I Bike/WhyIBike.html">Why I Bike</a></b></li>
+                <li>*Coming Soon*</li>
+					<ul>
+						<li> Does one really need a truck? </li>
+						<li> Coding School vs College </li>
+						<li> Tiny Homes </li>
+					</ul>	
+            </ul>
+            <p class="floating">Check back soon for more content!</p>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section id="resources">
+        <div class="content">
+            <h2>
+                Resources
+            </h2>
+            <p>
+                <a href="link list/links.html">Important Links</a>
+            </p>
+            <ul>
+                
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer">
+            <div class="left-content">
+                <span class="super_important"><b>Please Note - Do your own due diligence </b>
+					<p>
+						This website was hand coded (ish) by one who isn't amazing at html... yet! Please allow for my deficiencies!
+					</p>
+			</div>
+            <div class="right-content">
+                This document was last modified on <span id="lastModifiedLabel"></span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
